@@ -8,6 +8,6 @@ public interface Problem {
     }
 
     default void show() {
-        System.out.println(this.getDescription() + "\n" + this.solution() + "\n" + this.bonusSolution());
+        System.out.println(this.getDescription() + "\n" + this.solution() + "\n" + this.bonusSolution() + "\n");
     }
 }
